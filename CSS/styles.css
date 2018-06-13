@@ -104,8 +104,7 @@
     cursor: pointer;
     margin-left: 900px;
     margin-top: 700px;
-    
-   
+    visibility: hidden;
 }
 
 #fight{
@@ -236,6 +235,7 @@
     transition: all 3s;
    
 }
+
 #botoDrake{
     position: fixed;
     margin-left: 265px;
@@ -361,6 +361,15 @@
     position: fixed;
     margin-left: 670px;
     margin-top: 90px;
+    visibility: hidden;
+    
+}
+#vidaDrakeMenysmenys{
+    position: fixed;
+    margin-left: 670px;
+    margin-top: 90px;
+    visibility: hidden;
+   
     
 }
 #vidaEnemic{
@@ -372,6 +381,7 @@
     position: fixed;
     margin-left: 47px;
     margin-top: 90px;
+    visibility: hidden;
     
 }
 
@@ -379,44 +389,308 @@
     position: fixed;
     margin-left: 308px;
     margin-top: 240px;
+    animation-name: nomsscale;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 #foc1{
     position: fixed;
-    margin-left: 558px;
+    margin-left: 770px;
     margin-top: 300px;
+    transform: rotate(90deg);
+    visibility: hidden;
+}
+.llamarada1{
+  visibility: hidden;   
+}
+.llamarada1final{
+    animation-name: alataquefoc;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 6s;
+}
+@keyframes alataquefoc{
+    0%{
+        
+        visibility: visible;
+    
+    }
+    99%{
+        margin-left: 170px;
+    }
+    100%{
+        visibility: hidden;
+    }
 }
 
 #foc2{
     position: fixed;
     margin-left: 378px;
     margin-top: 240px;
+    visibility: hidden;
 }
 
 #foc3{
     position: fixed;
     margin-left: 23px;
     margin-top: 270px;
+    visibility: hidden;
+    
+   
 }
 
 #moc1{
     position: fixed;
     margin-left: 670px;
     margin-top: 270px;
+    visibility: hidden;
 }
 
 #moc2{
     position: fixed;
     margin-left: 508px;
     margin-top: 250px;
+    visibility: hidden;
 }
 
 #moc3{
     position: fixed;
-    margin-left: 328px;
+    margin-left: 128px;
     margin-top: 350px;
+    visibility: hidden;
+}
+.vava1{
+  visibility: hidden;   
+}
+.vava1final{
+    animation-name: alataquevava;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes alataquevava{
+    0%{
+        
+        visibility: visible;
+    
+    }
+    99%{
+        margin-left: 628px;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+.focAnimat{
+    visibility: hidden;
+   
+}
+.focAnimatfinal{
+    animation-name: focani;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 9s;
+   
+}
+@keyframes focani{
+    0%{
+        
+        transform: scale(0);
+        
+    }
+    3%{
+        visibility: visible;
+    }
+    99%{
+         
+        transform: scale(1);
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+.mocAnimat{
+   visibility: hidden;
+   
+}
+.mocAnimatfinal{
+     animation-name: mocani;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+   
+}
+@keyframes mocani{
+    0%{
+        
+        transform: scale(0);
+        
+    }
+    3%{
+        visibility: visible;
+    }
+    99%{
+         
+        transform: scale(1);
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+.vidadudley{
+   
+}
+.vidadudleyfinal{
+    animation-name: vidaplayer1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 9s;
 }
 
+.vidadrake1{
+   
+}
+.vidadrake1final{
+    animation-name: vidaplayer1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+}
+
+#fonswin{
+    position: fixed;
+}
+#youwin{
+    position: fixed;
+    margin-left: -10px;
+    animation-name: youwinani;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes youwinani{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes vidaplayer1{
+     0%{
+      
+        
+    }
+    
+    100%{
+        visibility: hidden;
+    }
+   
+}
+@keyframes vidaplayer2{
+     0%{
+        
+        
+    }
+    
+    100%{
+        visibility: hidden;
+    }
+   
+}
+@keyframes vidaplayer2mort{
+     0%{
+             
+    }
+    
+    
+    100%{
+        visibility: visible;
+    }
+   
+}
+
+@keyframes vidaplayer1mort{
+     0%{
+             
+    }
+    
+    
+    100%{
+        visibility: visible;
+    }
+   
+}
+.vidadrake2{
+   visibility: hidden;
+}
+.vidadrake2final{
+    animation-name: vidaplayer2mort;
+    animation-duration: 600s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 5s;
+}
+.vidadudley2{
+  visibility: hidden; 
+}
+.vidadudley2final{
+    animation-name: vidaplayer2mort;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay:11s;
+    animation-fill-mode: forwards;
+}
+.passar{
+  visibility: hidden; 
+}
+.passarfinal{
+    animation-name: actionpassar;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay:13s;
+    animation-fill-mode: forwards;
+}
+@keyframes actionpassar{
+     0%{
+             
+    }
+    
+    
+    100%{
+        visibility: visible;
+    }
+   
+}
+.hidenatack{
+   
+}
+.hidenatackfinal{
+    animation-name: finalatack;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+   
+}
+@keyframes finalatack{
+     0%{
+        
+        
+    }
+    
+    100%{
+        visibility: hidden;
+        
+    }
+   
+}
 
 
     
