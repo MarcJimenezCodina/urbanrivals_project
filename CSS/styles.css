@@ -82,11 +82,11 @@
 
 @keyframes cartailu{
     0%{
-        background-image:  url("/MEDIA/drake_sol.png");
+        background-image:  url("MEDIA/drake_sol.png");
         transform: scale(1);
     }
     100%{
-         background-image: url("/MEDIA/drake_sol_groc.png");
+         background-image: url("MEDIA/drake_sol_groc.png");
         transform: scale(1.1);
     }
 }
@@ -123,11 +123,11 @@
 }
 @keyframes fight{
     0%{
-        background-image:  url("/MEDIA/fight.png");
+        background-image:  url("MEDIA/fight.png");
         transform: scale(1);
     }
     100%{
-         background-image: url("/MEDIA/fightgroc.png");
+         background-image: url("MEDIA/fightgroc.png");
         transform: scale(1.1);
     }
 }
